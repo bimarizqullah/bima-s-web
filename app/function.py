@@ -13,7 +13,7 @@ def profilePage():
     col1, col2 = st.columns([2,2])  
 
     # Path gambar
-    image_path = "D:\\.CODE\\Streamlit\\profilePage\\image\\sosmed\\instagram.png"
+    image_path = r"D:\.CODE\Streamlit\profilePage\image\picture\profilepicture.png"
 
     # Cek apakah file ada
     if not os.path.exists(image_path):
@@ -68,10 +68,10 @@ def socialMediaPage():
     sos1, sos2 = st.columns([1,1])
 
     with sos1:
-        st.image("D:\.CODE\Streamlit\profilePage\image\sosmed\instagram.png", width=58, use_container_width=False)
+        st.image(r"D:\.CODE\Streamlit\profilePage\image\sosmed\instagram.png", width=58, use_container_width=False)
         st.caption("@bimacahyaaar")
     with sos2:
-        st.image("D:\.CODE\Streamlit\profilePage\image\sosmed\instagram.png", width=58, use_container_width=False)
+        st.image(r"D:\.CODE\Streamlit\profilePage\image\sosmed\instagram.png", width=58, use_container_width=False)
         st.caption("@mib.aja_")
 
 
