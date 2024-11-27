@@ -13,7 +13,7 @@ def profilePage():
     col1, col2 = st.columns([2,2])  
 
     # Path gambar
-    image_path = "D:\.CODE\Streamlit\profilePage\image\picture\profilepicture.png"
+    image_path = "D:\\.CODE\\Streamlit\\profilePage\\image\\sosmed\\instagram.png"
 
     # Cek apakah file ada
     if not os.path.exists(image_path):
